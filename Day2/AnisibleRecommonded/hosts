@@ -1,0 +1,5 @@
+[all]
+ubuntu[1:2]
+
+[dev]
+ubuntu1

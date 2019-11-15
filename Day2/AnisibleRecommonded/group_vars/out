@@ -1,0 +1,19 @@
+ansible 2.8.5
+  config file = /etc/ansible/ansible.cfg
+  configured module search path = [u'/home/rps/.ansible/plugins/modules', u'/usr/share/ansible/plugins/modules']
+  ansible python module location = /usr/lib/python2.7/site-packages/ansible
+  executable location = /usr/bin/ansible
+  python version = 2.7.5 (default, Oct 30 2018, 23:45:53) [GCC 4.8.5 20150623 (Red Hat 4.8.5-36)]
+Using /etc/ansible/ansible.cfg as config file
+setting up inventory plugins
+host_list declined parsing /home/rps/Training/Day2/AnisibleRecommonded/group_Vars/hosts as it did not pass it's verify_file() method
+Skipping due to inventory source not existing or not being readable by the current user
+script declined parsing /home/rps/Training/Day2/AnisibleRecommonded/group_Vars/hosts as it did not pass it's verify_file() method
+auto declined parsing /home/rps/Training/Day2/AnisibleRecommonded/group_Vars/hosts as it did not pass it's verify_file() method
+Skipping due to inventory source not existing or not being readable by the current user
+yaml declined parsing /home/rps/Training/Day2/AnisibleRecommonded/group_Vars/hosts as it did not pass it's verify_file() method
+Skipping due to inventory source not existing or not being readable by the current user
+ini declined parsing /home/rps/Training/Day2/AnisibleRecommonded/group_Vars/hosts as it did not pass it's verify_file() method
+Skipping due to inventory source not existing or not being readable by the current user
+toml declined parsing /home/rps/Training/Day2/AnisibleRecommonded/group_Vars/hosts as it did not pass it's verify_file() method
+Loading callback plugin minimal of type stdout, v2.0 from /usr/lib/python2.7/site-packages/ansible/plugins/callback/minimal.pyc

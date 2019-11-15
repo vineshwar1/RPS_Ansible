@@ -1,0 +1,8 @@
+ - name: Install Extra Packages for Enterprise Linix in CentOS
+   yum: name=epel-release state=latest
+
+ - name: enable baseurl and diable mirror link in epel repos under CentOS
+   copy: src=epel.repo dest=/etc/yum.repos.d/epel.repo
+
+ - name: Install nginx web server in CentOS
+   yum: name=nginx state=latest
